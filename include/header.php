@@ -67,7 +67,7 @@ function curPageURL() {
              <div class="banner">
 
 
-                 <div class="logo" style="font-size: 23px;height: 100px; text-shadow:2px 2px blue;"><a title="" href="index.php"><img alt="e-commerce" src="images/slider/Vsoft.png" style="height:300px; width: 500px; margin-top: -70px;"></a>
+                 <div class="logo" style="font-size: 23px;height: 100px; text-shadow:2px 2px blue;"><a title="" href="index.php"></a>
             </div>
 <!--                       <h1 style="height: 100px ;text-shadow:2px 2px red";> VSOFT Technologies</h1>-->
 
