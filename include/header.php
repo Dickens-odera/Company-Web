@@ -39,6 +39,14 @@ function curPageURL() {
     <!-- CSS Style -->
     <script src="js/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+.banner{ background-image: url("images/slider/VsoftBannerP.png");
+                background-repeat: no-repeat;
+                background-size: cover; 
+                background-position: center;
+            }
+    </style>
 </head>
 
 <body class="contact_us_page">
@@ -53,13 +61,13 @@ function curPageURL() {
     <header id="header"  >
         <div style="background-color: #f5f5f5" class="header-container">
 
-            <div class="container">
-            <div class="row">
+            <div class="container-fluid">
+            
                     <!-- Header Logo -->
-             <div class="col-xs-12 col-lg-5 col-md-3 col-sm-3">
+             <div class="banner">
 
 
-                 <div class="logo" style="font-size: 23px;height: 100px; text-shadow:2px 2px blue;"><a title="" href="index.php"><img alt="e-commerce" src="images/slider/Vsoft.png" style="height:300px; width: 500px; margin-top: -70px;"> VSOFT TECHNOLOGIES LIMITED</a>
+                 <div class="logo" style="font-size: 23px;height: 100px; text-shadow:2px 2px blue;"><a title="" href="index.php"><img alt="e-commerce" src="images/slider/Vsoft.png" style="height:300px; width: 500px; margin-top: -70px;"></a>
             </div>
 <!--                       <h1 style="height: 100px ;text-shadow:2px 2px red";> VSOFT Technologies</h1>-->
 
