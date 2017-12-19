@@ -49,8 +49,8 @@
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-xs-12 col-lg-3">
-                <div class="footer-logo"><a href="index.php"><img src="images/slider/Vsoft.png" class=".img-rounded" alt="fotter logo"></a> </div>
-                <div class="footer-content">
+                <div class="footer-logo"><a href="index.php"><img src="images/slider/Vsoft.png" class="img-responsive" style="height: 200px;" alt="fotter logo"></a> </div>
+                <div class="footer-content" style="margin-top: -50px;">
                     <?php
                     $sql = "SELECT * FROM contact_info";
                     $result = mysqli_query($conn, $sql);
