@@ -87,7 +87,7 @@ function curPageURL() {
                         ?>
                         <!--                            <div style="display: inline;">-->
                         <!--                    <ul class="nospace" style="margin-top:30px; margin-left: 400px;">-->
-                        <!--                        <span><i class="fa fa-envelope"></i>--><?php //echo $row["email"]   ?><!--</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="fa fa-phone"></i>--><?php //echo $row["numb1"]   ?><!--</span>-->
+                        <!--                        <span><i class="fa fa-envelope"></i>--><?php //echo $row["email"]    ?><!--</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="fa fa-phone"></i>--><?php //echo $row["numb1"]    ?><!--</span>-->
                         <!---->
                         <!--                        <div class="social">-->
                         <!--                            <ul class="inline-mode" style="margin-top:-40px;">-->
@@ -101,8 +101,8 @@ function curPageURL() {
                         <!--                        </div>
                         <!--                    </ul>-->
                         <!--                                </div>-->
-                        <!--                    --><?php //}   ?>
-                        <!--                    --><?php //}   ?>
+                        <!--                    --><?php //}    ?>
+                        <!--                    --><?php //}    ?>
                         <!--                </div>-->
 
                     </div>
@@ -177,8 +177,14 @@ function curPageURL() {
                                     }
                                     ?>"><a href="contact_us"><i class="fa fa-address-card" aria-hidden="true"></i>
                                             Contact</a></li>
-                                            <li class="megamenu"><a href="vsoft.co.ke/webmail" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <li class="megamenu"><a href="vsoft.co.ke/webmail" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
                                             Staff Mail</a></li>
+                                            <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/" style="hover:#00004C;"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://plus.google.com/u/4/102551568188987403300"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="social-network tw"><a title="Connect us on Twitter" target="_blank" href="https://twitter.com/vsoftlimited"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-network linkedin"><a title="Connect us on Linkedin" target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://github.com/VSoft-Tech"><i class="fa fa-github"></i></a></li>
+                                <li class="social-network instagram"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
