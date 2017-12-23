@@ -70,7 +70,7 @@
                     </div>
                     <?php } ?>
                     <?php } ?>
-                </div>
+                                    </div>
             </div>
             <div class="col-sm-6 col-md-3 col-xs-12 col-lg-3 collapsed-block">
                 <div class="footer-links">
@@ -180,12 +180,13 @@
     <div class="footer-coppyright">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-xs-12 coppyright"> Copyright &copy; 2017 <a href="#"> VSoft </a>. All Rights Reserved. </div>
+                <div class="col-sm-6 col-xs-12 coppyright"> Copyright &copy; <script>var d = new Date();
+                var n = d.getFullYear();
+                document.write(n);</script> <a href="#"> VSoft </a>. All Rights Reserved. </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="payment">
-                        <ul>
-
-                        </ul>
+                        <button class="btn-info"><a href="https://www.vsoft.co.ke/webmail" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                Staff Mail</a></button>
                     </div>
                 </div>
             </div>

@@ -48,6 +48,7 @@ function curPageURL() {
                      background-repeat: no-repeat;
                      background-size: cover; 
                      background-position: center;
+                     height: 200px;
             }
         </style>
     </head>
@@ -61,50 +62,16 @@ function curPageURL() {
         <div id="page">
 
             <!-- Header -->
-            <header id="header"  >
+            <header id="header" >
                 <div style="background-color: #f5f5f5" class="header-container">
 
                     <div class="container-fluid">
 
-                        <!-- Header Logo -->
+                        <!-- Header banner -->
                         <div class="banner">
-
-
                             <div class="logo" style="font-size: 23px;height: 100px; text-shadow:2px 2px blue;"><a title="" href="index.php"></a>
                             </div>
                         </div>
-
-                        <!--                <div class="fl_right">-->
-                        <!---->
-                        <!--                    --><?php
-//                    $sql = "SELECT * FROM contact_info";
-//                    $result = mysqli_query($conn, $sql);
-//
-//                    if (mysqli_num_rows($result) > 0) {
-//                        // output data of each row
-//                        while($row = mysqli_fetch_assoc($result)) {
-//                            
-                        ?>
-                        <!--                            <div style="display: inline;">-->
-                        <!--                    <ul class="nospace" style="margin-top:30px; margin-left: 400px;">-->
-                        <!--                        <span><i class="fa fa-envelope"></i>--><?php //echo $row["email"]    ?><!--</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="fa fa-phone"></i>--><?php //echo $row["numb1"]    ?><!--</span>-->
-                        <!---->
-                        <!--                        <div class="social">-->
-                        <!--                            <ul class="inline-mode" style="margin-top:-40px;">-->
-                        <!--                                <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>-->
-                        <!--                                <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://plus.google.com/u/4/102551568188987403300"><i class="fa fa-google-plus"></i></a></li>-->
-                        <!--                                <li class="social-network tw"><a title="Connect us on Twitter" target="_blank" href="https://twitter.com/vsoftlimited"><i class="fa fa-twitter"></i></a></li>-->
-                        <!--                                <li class="social-network linkedin"><a title="Connect us on Linkedin" target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>-->
-                        <!--                                <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://github.com/VSoft-Tech"><i class="fa fa-github"></i></a></li>-->
-                        <!--                                <li class="social-network instagram"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>-->
-                        <!--                            </ul>
-                        <!--                        </div>
-                        <!--                    </ul>-->
-                        <!--                                </div>-->
-                        <!--                    --><?php //}    ?>
-                        <!--                    --><?php //}    ?>
-                        <!--                </div>-->
-
                     </div>
                 </div>
         </div>
@@ -177,14 +144,14 @@ function curPageURL() {
                                     }
                                     ?>"><a href="contact_us"><i class="fa fa-address-card" aria-hidden="true"></i>
                                             Contact</a></li>
-                                    <li class="megamenu"><a href="vsoft.co.ke/webmail" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                            Staff Mail</a></li>
-                                            <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/" style="hover:#00004C;"><i class="fa fa-facebook"></i></a></li>
-                                <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://plus.google.com/u/4/102551568188987403300"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="social-network tw"><a title="Connect us on Twitter" target="_blank" href="https://twitter.com/vsoftlimited"><i class="fa fa-twitter"></i></a></li>
-                                <li class="social-network linkedin"><a title="Connect us on Linkedin" target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://github.com/VSoft-Tech"><i class="fa fa-github"></i></a></li>
-                                <li class="social-network instagram"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/" style="hover:#00004C;"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://plus.google.com/u/4/102551568188987403300"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="social-network tw"><a title="Connect us on Twitter" target="_blank" href="https://twitter.com/vsoftlimited"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="social-network linkedin"><a title="Connect us on Linkedin" target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://github.com/VSoft-Tech"><i class="fa fa-github"></i></a></li>
+                                    <li class="social-network instagram"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
